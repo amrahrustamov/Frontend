@@ -1,13 +1,39 @@
-/* 3.external css */
-body {
-    background-color: aqua;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-/* .P332 {
-    background-color: rgb(226, 43, 52) !important;
-} */
-.P332 {
-    background-color: blueviolet;
+.firstBox{
+    margin: 50px;
+    border-style: solid;
+    border-width: 1px; 
+    border-color: rgb(5, 5, 5);
+    background-color: rgb(38, 163, 235);   
+    height: 200px;
+    width: 200px    
 }
-#amrah h4{
-    background-color: aliceblue;
+.secondBox{
+    margin-left: 150px;
+    border-style: solid;
+    border-width: 1px; 
+    border-color: rgb(5, 5, 5);
+    height: 200px;
+    width: 200px
+}
+.secondBox img{
+    width: 198px;
+    height: 198px;
+}
+.thirdBox{
+    background-color: rgb(171, 214, 243);
+    overflow: auto;
+    margin: 30px 50px ;
+    border-style: solid;
+    border-width: 1px; 
+    border-color: rgb(5, 5, 5);
+    height: 100px;
+    width: 200px   
+}
+#info{
+    padding: 20px;
 }
